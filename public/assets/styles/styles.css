@@ -3,6 +3,10 @@ body{
   font-family: 'Montserrat';
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 /* Header */
 
 header {
@@ -565,7 +569,7 @@ section .contenido{
 
 
   .cardTestimonio{
-    
+
   }
 
   .cardTestimonio .imagenTestimonio{
