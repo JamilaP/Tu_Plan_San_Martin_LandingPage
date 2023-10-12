@@ -3,6 +3,10 @@ body{
   font-family: 'Montserrat';
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Header */
 
 header {
