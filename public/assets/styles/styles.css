@@ -398,6 +398,9 @@ section .contenido{
 }
 
 /* Footer */
+
+/* Seccion Comienza */
+
 #comienza .contenido{
   background-color: var(--color-green-200);
 }
@@ -471,3 +474,17 @@ section .contenido{
 .botonesDescargav2 p, .botonesDescargav2 b{
   font-size: 15px;
 }
+
+/* Seccion Redes */
+#redesSociales{
+  background-color: var(--color-green-900);
+}
+
+#redesSociales .contenido{
+  padding: 0px;
+}
+
+.footerRedes h4{
+  color: #fff
+}
+
