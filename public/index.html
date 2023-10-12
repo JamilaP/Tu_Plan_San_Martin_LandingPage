@@ -1,52 +1,130 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tu Título Aquí</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Enlaza tu archivo de estilos CSS aquí -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tu Plan San Martin</title>
+  <link rel="stylesheet" href="assets/styles/styles.css">
+  <link rel="stylesheet" href="assets/styles/styleguide.css">
+
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
 </head>
+
 <body>
+  <main>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#section1">Sección 1</a></li>
-                <li><a href="#section2">Sección 2</a></li>
-                <li><a href="#section3">Sección 3</a></li>
+      <div class="header">
+        <div class="contenido">
+          <div class="navbar">
+            <div class="logo">
+              <a href="#"><img src="assets/icons/pasos_tarjeta.svg" class="logoicon" alt="Logo Plan San Martin"></a>
+              <b>Tu Plan San Martín</b>
+            </div>
+            <ul class="navigation">
+              <li><a href="#">Servicios</a></li>
+              <li><a href="#">Destinos</a></li>
+              <li><a href="#">Funcionamiento</a></li>
+              <li><a href="#">Testimonios</a></li>
             </ul>
-        </nav>
+          </div>
+          <div class="headerContenido">
+            <h1>Explora la selva peruana y planifica tu aventura en familia</h1>
+            <h4>Consulta también los distintos servicios que ofrecemos para que puedas presupuestar todo tu viaje sin
+              rodeos
+            </h4>
+
+            <div class="botonesDescarga">
+              <a href="#" class="btnDescarga">
+                <img class="img" src="assets/icons/boton_googlePlay.svg" alt="Logo Google Play">
+                <div class="mensajeBoton">
+                  <p>Descarga Gratis en</p>
+                  <b>Google Play</b>
+                </div>
+
+              </a>
+              <a href="#" class="btnDescarga">
+                <img class="img" src="assets/icons/boton_appStore.svg" alt="Logo App Store">
+                <div class="mensajeBoton">
+                  <p>Descarga Gratis en</p>
+                  <b>App Store</b>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
 
-    <section id="section1">
-        <h1>Bienvenido a tu Landing Page</h1>
-        <p>Descripción breve de lo que ofrece tu producto o servicio.</p>
-        <a href="#section2">Más información</a>
+    <section id="servicios">
+      <div class="contenido">
+        <div class="tituloContenido">
+          <h4>PLANIFICA TU VIAJE Y DISFRUTA DE LA EXPERIENCIA</h4>
+          <h2>Nuestros mejores servicios</h2>
+        </div>
+        <div class="listaServicios">
+          <div class="cardServicio">
+            <div class="iconoCardServicio">
+              <img src="assets/icons/avion.svg" alt="Icono Avion">
+            </div>
+            <h5>Búsqueda completa</h5>
+            <p>Utiliza los filtros y encuentra rápidamente información de todos los servicios que se ofrecen en la
+              Región </p>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section id="section2">
-        <h2>Características Destacadas</h2>
-        <ul>
-            <li>Característica 1</li>
-            <li>Característica 2</li>
-            <li>Característica 3</li>
-        </ul>
-        <a href="#section3">Regístrate Ahora</a>
+    <section id="destinos">
+      <h2>Características Destacadas</h2>
+      <ul>
+        <li>Característica 1</li>
+        <li>Característica 2</li>
+        <li>Característica 3</li>
+      </ul>
+      <a href="#section3">Regístrate Ahora</a>
+    </section>
+
+    <section id="funcionamiento">
+      <h2>Características Destacadas</h2>
+      <ul>
+        <li>Característica 1</li>
+        <li>Característica 2</li>
+        <li>Característica 3</li>
+      </ul>
+      <a href="#section3">Regístrate Ahora</a>
+    </section>
+
+    <section id="testimonios">
+      <h2>Características Destacadas</h2>
+      <ul>
+        <li>Característica 1</li>
+        <li>Característica 2</li>
+        <li>Característica 3</li>
+      </ul>
+      <a href="#section3">Regístrate Ahora</a>
     </section>
 
     <section id="section3">
-        <h2>Regístrate Ahora</h2>
-        <p>Completa el formulario de registro para obtener acceso a nuestros servicios.</p>
-        <form>
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <button type="submit">Registrarse</button>
-        </form>
+      <h2>Regístrate Ahora</h2>
+      <p>Completa el formulario de registro para obtener acceso a nuestros servicios.</p>
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <button type="submit">Registrarse</button>
+      </form>
     </section>
 
     <footer>
-        <p>&copy; 2023 Tu Empresa. Todos los derechos reservados.</p>
+      <p>&copy; 2023 Tu Empresa. Todos los derechos reservados.</p>
     </footer>
+  </main>
+  <script src="assets/scripts/main.js"></script>
 </body>
+
 </html>
