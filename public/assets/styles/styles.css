@@ -297,6 +297,7 @@ section .contenido{
   height: 350px;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .descripcionFuncionamiento{
